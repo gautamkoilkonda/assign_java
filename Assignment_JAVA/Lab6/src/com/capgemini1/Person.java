@@ -1,0 +1,69 @@
+package com.capgemini1;
+
+public class Person {
+	String name;
+
+	float age;
+
+	public Person(String name, float age)
+
+	{
+
+		this.name = name;
+
+		this.age = age;
+
+	}
+
+	public Person(String string, String string2, String string3) {
+		
+	}
+
+	public String getName() {
+
+		return name;
+
+	}
+
+	public void setName(String name) {
+
+		this.name = name;
+
+	}
+
+	public float getAge() {
+
+		return age;
+
+	}
+
+	public void setAge(float age) {
+
+		this.age = age;
+
+	}
+
+	@Override
+
+	public String toString() {
+
+		return "Person [name=" + name + ", age=" + age + "]";
+
+	}
+
+	public String getFn() {
+		
+		return null;
+	}
+
+	public String getLn() {
+		
+		return null;
+	}
+
+	public String getGender() {
+		
+		return null;
+	}
+
+}
